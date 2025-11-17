@@ -1,3 +1,11 @@
+# My notes
+- setup [NVIDIA Container (Toolkit) Docker](https://dzone.com/articles/ollama-ubuntu-local-llm-setup)
+  - (further check) [customise GPU usage](https://gist.github.com/pykeras/0b1e32b92b87cdce1f7195ea3409105c?st_source=ai_mode)
+- check ollama operation
+  - `ollama ps`
+  - `ollama serve`
+  - `watch -n 1 nvidia-smi`
+
 # Ollama Python Library
 
 The Ollama Python library provides the easiest way to integrate Python 3.8+ projects with [Ollama](https://github.com/ollama/ollama).
