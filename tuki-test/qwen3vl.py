@@ -24,7 +24,8 @@ response: ChatResponse = chat(
 # NOTE: without streaming
 print(response.message.thinking)
 print("----------------------------")
-print(response.message.content)
+print(response.message.content)[phanl@m3-login1 mh42]$ pwd
+/home/phanl/mh42
 
 # REFERENCE
 '''
